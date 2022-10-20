@@ -1,0 +1,136 @@
+body{
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    height: 70px;
+}
+.esquerda {
+    float: left;
+}
+
+.direita {
+    float:right;
+}
+
+nav img{
+    padding: 10px;
+}
+
+nav li{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 5px;   
+}
+
+nav li a {
+    text-decoration: none;
+    color:black;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color:rgb(7, 17, 105);
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: aliceblue;
+}
+
+#inicio {
+    background-color: rgb(18, 5, 143);
+    color: white;
+}
+
+.cabecalho {
+    font-size: 80px;
+}
+
+.linha {
+    display: flex;
+}
+
+.coluna{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.coluna-1{
+    flex:1;
+}
+
+.coluna-2{
+    flex:2;
+}
+.coluna-3{
+    flex:3;
+}
+
+.img-responsivo {
+    width: 100%;
+    height: ;
+}
+
+.centralizado{
+    align-items: center;
+}
+
+.texto-centralizado{
+    text-align: center;
+
+}
+#conteudo{
+    background-color: white;
+}
+#conteudo p {
+    text-align: justify;
+}
+
+.galeria {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.galeria li {
+    flex:1;
+    flex-basis: 10%;
+    display: inline-block;
+    margin: 5px;
+}
+
+#contato {
+    background-color: white;
+    padding: 40px 0;
+}
+
+.form-input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-input:focus{
+    border-color: rgb(3, 9, 95);
+    border: 3px solid;
+}
+
+.form-label{
+    margin-left: 5px;
+}
+
+.botao{
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: rgb(3, 9, 95);
+    color: white;
+    margin-left: 2px;
+}
+
+.botao:hover{
+    background-color: rgb(128, 134, 219);
+}
